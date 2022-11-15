@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
-import HelloWorld from './modules/hello-world'
+import Drivers from './modules/_boilerplate/drivers';
 
 Vue.use(Vuex);
 
@@ -12,6 +12,6 @@ export default new Vuex.Store({
     actions: actions,
     getters: getters,
     modules: {
-        HelloWorld
+        Drivers
     }
 })
